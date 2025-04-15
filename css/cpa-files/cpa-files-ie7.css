@@ -1,0 +1,43 @@
+[class^="cpa-file-"], [class*=" cpa-file-"] {
+  font-family: 'cpa-files';
+  font-style: normal;
+  font-weight: normal;
+
+  /* fix buttons height */
+  line-height: 1em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+
+.cpa-file-4 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;&nbsp;'); }
+.cpa-file-cep { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;&nbsp;'); }
+.cpa-file-cfdi { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;&nbsp;'); }
+.cpa-file-contrato { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;&nbsp;'); }
+.cpa-file-cvs { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;&nbsp;'); }
+.cpa-file-dict { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;&nbsp;'); }
+.cpa-file-dll { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;&nbsp;'); }
+.cpa-file-doc { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;&nbsp;'); }
+.cpa-file-exe { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;&nbsp;'); }
+.cpa-file-html { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;&nbsp;'); }
+.cpa-file-img { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;&nbsp;'); }
+.cpa-file-jpg { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;&nbsp;'); }
+.cpa-file-key { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90c;&nbsp;'); }
+.cpa-file-mov { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90d;&nbsp;'); }
+.cpa-file-mp3 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90e;&nbsp;'); }
+.cpa-file-mp4 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90f;&nbsp;'); }
+.cpa-file-none { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe910;&nbsp;'); }
+.cpa-file-ocompra { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe911;&nbsp;'); }
+.cpa-file-pdf { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe912;&nbsp;'); }
+.cpa-file-orecepcion { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe913;&nbsp;'); }
+.cpa-file-png { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe914;&nbsp;'); }
+.cpa-file-ppt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe915;&nbsp;'); }
+.cpa-file-rar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe916;&nbsp;'); }
+.cpa-file-sat { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe917;&nbsp;'); }
+.cpa-file-sql { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe918;&nbsp;'); }
+.cpa-file-txt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe919;&nbsp;'); }
+.cpa-file-sua { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91a;&nbsp;'); }
+.cpa-file-xls { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91b;&nbsp;'); }
+.cpa-file-xlsx { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91c;&nbsp;'); }
+.cpa-file-xml { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91d;&nbsp;'); }
+.cpa-file-zip { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91e;&nbsp;'); }
