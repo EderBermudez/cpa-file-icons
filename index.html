@@ -14,7 +14,7 @@
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
   <!-- CPA Files Extension CSS -->
-  <link href="./css/cpa-files/cpa-files.css" rel="stylesheet">
+  <link href="./icons-cpa-files/css/cpa-files.css" rel="stylesheet">
 
   <style>
     body {
@@ -106,11 +106,11 @@
       <h1>ICONOS PARA EXTENSION DE ARCHIVOS</h1>
     </div>
     <div class="row pb-4">
-      <p>Esta página muestra un ejemplo de cómo utilizar los íconos personalizados según la extensión de archivo. <br> El desarrollo se basa en Bootstrap 5.3 y JavaScript, y lo más importante está organizado en las siguientes carpetas:</p>
+      <p>Esta página muestra un ejemplo de cómo utilizar los íconos personalizados según la extensión de archivo. <br> El desarrollo se basa en Bootstrap 5.3 y JavaScript, y lo más importante está organizado dentro de la carpeta(libreria) icons-cpa-files:</p>
       <dl>
-        <dt>fonts/cpa-files</dt>
+        <dt>/fonts</dt>
         <dd>Contiene los archivos de fuente que definen los íconos como tipografía.</dd>
-        <dt>css/cpa-files</dt>
+        <dt>/css</dt>
         <dd>Incluye el archivo de estilos con las clases para aplicar los íconos, estilos :before, colores y tooltips personalizados.</dd>
         <dt>demo.html</dt>
         <dd>Archivo de ejemplo donde se demuestra cómo aplicar los íconos en una interfaz web. <br>
@@ -173,7 +173,7 @@
                     <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Representación Web del CFDI">
                       <i class="cpa-file cpa-file-cfdi"></i>
                     </a>
-                    <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Dictamen del Documento">
+                    <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Dictamen del CFDI">
                       <i class="cpa-file cpa-file-dict"></i>
                     </a>
                     <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Comprobante SAT (imagen)">
@@ -197,7 +197,7 @@
                     <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Representación Web del CFDI">
                       <i class="cpa-file cpa-file-cfdi"></i>
                     </a>
-                    <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Dictamen del Documento">
+                    <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Dictamen del CFDI">
                       <i class="cpa-file cpa-file-dict"></i>
                     </a>
                     <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Comprobante SAT (imagen)">
@@ -221,7 +221,7 @@
                     <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Representación Web del CFDI">
                       <i class="cpa-file cpa-file-cfdi"></i>
                     </a>
-                    <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Dictamen del Documento">
+                    <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Dictamen del CFDI">
                       <i class="cpa-file cpa-file-dict"></i>
                     </a>
                     <a href="#" class="btn btn-cpa-file" data-bs-toggle="tooltip" data-bs-custom-class="edr-tooltip" data-bs-title="Comprobante SAT (imagen)">
@@ -340,13 +340,13 @@
   <script> // JS para agregar la lista de iconos
     const extensiones = [
       "4", "cep", "cfdi", "contrato", "cvs", "dict", "dll", "doc", "exe", "html", "img", "jpg", "key", "mp3", "mov", "mp4",
-      "none", "ocompra", "orecepcion", "pdf", "png", "ppt", "rar", "sat", "sql", "sua", "txt", "xls", "xlsx", "xml", "zip"
+      "none", "ocompra", "orecepcion", "pdf", "png", "ppt", "rar", "sat", "sql", "sua", "txt", "xls", "xlsx", "xml", "zip", "32", "33", "acto", "acuse", "aviso", "dec"
     ];
 
     const titleExt = {
-      "4": "Factura 4.0",
-      "cep": "Complemento de Pagos",
-      "cfdi": "Documento CFDI",
+      "4": "CFDI versión 4.0",
+      "cep": "Comprobante Electrónico de Pago",
+      "cfdi": "Representación WEB del CFDI",
       "contrato": "Contrato",
       "cvs": "Archivo CSV",
       "dict": "Dictamen del CFDI",
@@ -357,24 +357,30 @@
       "img": "Archivo de imagen",
       "jpg": "Imagen JPG",
       "key": "Archivo de clave privada",
-      "mp3": "Archivo de audio MP3",
-      "mov": "Archivo de video MOV",
-      "mp4": "Archivo de video MP4",
-      "none": "Documento desconocida",
+      "mp3": "Archivo de Audio MP3",
+      "mov": "Archivo de Video MOV",
+      "mp4": "Archivo de Video MP4",
+      "none": "Documento desconocido",
       "ocompra": "Orden de compra",
       "orecepcion": "Orden de recepción",
       "pdf": "Documento PDF",
       "png": "Imagen PNG",
       "ppt": "Presentación PowerPoint",
       "rar": "Archivo comprimido RAR",
-      "sat": "Archivo del SAT",
+      "sat": "Comprobante del SAT",
       "sql": "Archivo Script de SQL",
       "sua": "Archivo SUA (IMSS)",
       "txt": "Archivo de texto plano",
-      "xls": "Hoja de cálculo Excel",
-      "xlsx": "Hoja de cálculo Excel",
+      "xls": "Hoja de Cálculo Excel (1997-2003)",
+      "xlsx": "Hoja de Cálculo Excel (actual)",
       "xml": "Archivo XML",
-      "zip": "Archivo comprimido ZIP"
+      "zip": "Archivo comprimido ZIP",
+      "32" : "CFDI versión 3.2",
+      "33" : "CFDI versión 3.3",
+      "acto": "Acto Administrativo",
+      "acuse" : "Acuse",
+      "aviso" : "Aviso",
+      "dec" : "Declaración"
     };
 
     const container = document.getElementById("icon-container");
